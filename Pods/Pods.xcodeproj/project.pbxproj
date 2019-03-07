@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0953AA504CEC08A99B1204864D472B0D /* TRUNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B303011E9D805AAE61A77534E27F4F5C /* TRUNetworking.m */; };
+		129D338E9C5C5E30942C3B4E2081E014 /* Pods-CYDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D016023E0538BC753BD4DDACF632B /* Pods-CYDemoTests-dummy.m */; };
+		91DEE49A14F894272EF3400BA825570D /* Pods-CYDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4882246C6AC1B68743259727C993610 /* Pods-CYDemo-dummy.m */; };
+		9DC59E4E27FB13349FA1BAB6033B3FC1 /* TRUNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F340007EA79E83DDB9140CC3E55434 /* TRUNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E92F718E1C1C33D340A8BA4F89C6048 /* TRUNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E3DF8662106B4EF9BC83E06937F0E9 /* TRUNetworking-dummy.m */; };
+		FBA46723862CD6465515EE2EE667A494 /* Pods-CYDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1261E84A26261DBDA37F94D89980033 /* Pods-CYDemoUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		446A470E0E22375D1CF67B59EF29836A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 076D507170B23F877A3827E82BDB4F30;
+			remoteInfo = "Pods-CYDemo";
+		};
+		9071EB33C1D5FC125E50B609CA1E3B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D42FCCD5AF443C61BF121378F76C2864;
+			remoteInfo = TRUNetworking;
+		};
+		F18CF19D520D78BF99411165E25265D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 076D507170B23F877A3827E82BDB4F30;
+			remoteInfo = "Pods-CYDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F68B57CC3B5488B7DDE88D1E60B112 /* libPods-CYDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CYDemoTests.a"; path = "libPods-CYDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6A0858795DCBBE6AD0C575EA56C3E6 /* Pods-CYDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FF54BDFAA5520DA0C3C798834E789F7 /* Pods-CYDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		277C99EEB4ADAFD508FAABEF7C5EB227 /* Pods-CYDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B48032E3F28D30FFB5BEF4D6071582B /* Pods-CYDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYDemo-resources.sh"; sourceTree = "<group>"; };
+		365A3149ECA2E72EFEEE0F39D604235B /* Pods-CYDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		371FE7B921E0E6A708060AA4436359AE /* Pods-CYDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		40280D9EE53089F6E46AEC9FC9048E07 /* libPods-CYDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CYDemoUITests.a"; path = "libPods-CYDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D60012230029B791D7D88A1F06D3DD /* TRUNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TRUNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		489BB1975372446C4E7E51028C8BAA1F /* Pods-CYDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		50267FC619D9BDF194899B3DB876C584 /* Pods-CYDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56BC2E84F7EDF00757CD6F4C6F49A8F6 /* Pods-CYDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		6612F9A9499FB6F15A8DF5EBAE458FD9 /* Pods-CYDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		76FC26F930334A0A8A687CBD257809B6 /* Pods-CYDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYDemo.release.xcconfig"; sourceTree = "<group>"; };
+		88F340007EA79E83DDB9140CC3E55434 /* TRUNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRUNetworking.h; path = TRUNetworking/Classes/TRUNetworking.h; sourceTree = "<group>"; };
+		896F5119D28D1E39D3786C8C5BA05F1F /* Pods-CYDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYDemo-frameworks.sh"; sourceTree = "<group>"; };
+		8B4D016023E0538BC753BD4DDACF632B /* Pods-CYDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYDemoTests-dummy.m"; sourceTree = "<group>"; };
+		8E154FA342846921FFFC783F515187D9 /* libTRUNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTRUNetworking.a; path = libTRUNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AAB2C1F4C05690CCCF32FD46B93AA9 /* Pods-CYDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99E18FDAD11E4B1A2D83E83457020095 /* Pods-CYDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99E3DF8662106B4EF9BC83E06937F0E9 /* TRUNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRUNetworking-dummy.m"; sourceTree = "<group>"; };
+		A4AB13FE36CC72BF90DE801B8C65E367 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B1261E84A26261DBDA37F94D89980033 /* Pods-CYDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		B303011E9D805AAE61A77534E27F4F5C /* TRUNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRUNetworking.m; path = TRUNetworking/Classes/TRUNetworking.m; sourceTree = "<group>"; };
+		B4882246C6AC1B68743259727C993610 /* Pods-CYDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYDemo-dummy.m"; sourceTree = "<group>"; };
+		B80A8C05F4B4AD6EA92A6394AB5F9777 /* TRUNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUNetworking.xcconfig; sourceTree = "<group>"; };
+		B9093C8B1D6BBFA32E19102EDFACCDAB /* Pods-CYDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYDemoTests-resources.sh"; sourceTree = "<group>"; };
+		C53AFD90F836F83E69B97FDC717D4D2F /* Pods-CYDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA9E50BE0BCD0754AA5C49843E9FFBEF /* Pods-CYDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC2AA891F88755D631EB45633D94DC07 /* TRUNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUNetworking-prefix.pch"; sourceTree = "<group>"; };
+		DEAA31AB90BCF6224B53C8A5D0114268 /* Pods-CYDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		F1422EB2B6FE4299FF09B140FAADAF13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FE3B166DBAF5DA71E0AB134F07C1CF88 /* libPods-CYDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CYDemo.a"; path = "libPods-CYDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2811341D652DC31C9F130E35EE4A2D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D743258D14564CDE9543EE2B4DB262F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7221FE4559DF3EA2E30F262BE8D64C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD04EA7A09FB51AA28809564E779A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2A8095D93FF7D7F4E7995E13299C6E /* Pods-CYDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				277C99EEB4ADAFD508FAABEF7C5EB227 /* Pods-CYDemoUITests-acknowledgements.markdown */,
+				6612F9A9499FB6F15A8DF5EBAE458FD9 /* Pods-CYDemoUITests-acknowledgements.plist */,
+				B1261E84A26261DBDA37F94D89980033 /* Pods-CYDemoUITests-dummy.m */,
+				365A3149ECA2E72EFEEE0F39D604235B /* Pods-CYDemoUITests-frameworks.sh */,
+				DEAA31AB90BCF6224B53C8A5D0114268 /* Pods-CYDemoUITests-resources.sh */,
+				99E18FDAD11E4B1A2D83E83457020095 /* Pods-CYDemoUITests.debug.xcconfig */,
+				371FE7B921E0E6A708060AA4436359AE /* Pods-CYDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-CYDemoUITests";
+			path = "Target Support Files/Pods-CYDemoUITests";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		119B31CFF4263A6F404EBA5898FE062A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B166DBAF5DA71E0AB134F07C1CF88 /* libPods-CYDemo.a */,
+				07F68B57CC3B5488B7DDE88D1E60B112 /* libPods-CYDemoTests.a */,
+				40280D9EE53089F6E46AEC9FC9048E07 /* libPods-CYDemoUITests.a */,
+				8E154FA342846921FFFC783F515187D9 /* libTRUNetworking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C4EA02D25BE4384798216583524D349 /* Pods-CYDemo */ = {
+			isa = PBXGroup;
+			children = (
+				92AAB2C1F4C05690CCCF32FD46B93AA9 /* Pods-CYDemo-acknowledgements.markdown */,
+				1F6A0858795DCBBE6AD0C575EA56C3E6 /* Pods-CYDemo-acknowledgements.plist */,
+				B4882246C6AC1B68743259727C993610 /* Pods-CYDemo-dummy.m */,
+				896F5119D28D1E39D3786C8C5BA05F1F /* Pods-CYDemo-frameworks.sh */,
+				2B48032E3F28D30FFB5BEF4D6071582B /* Pods-CYDemo-resources.sh */,
+				489BB1975372446C4E7E51028C8BAA1F /* Pods-CYDemo.debug.xcconfig */,
+				76FC26F930334A0A8A687CBD257809B6 /* Pods-CYDemo.release.xcconfig */,
+			);
+			name = "Pods-CYDemo";
+			path = "Target Support Files/Pods-CYDemo";
+			sourceTree = "<group>";
+		};
+		7081EF5B800D35A0765C54EBE20A9EF4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C4EA02D25BE4384798216583524D349 /* Pods-CYDemo */,
+				FEDB9F030E079B656EF19370C8D9BFE3 /* Pods-CYDemoTests */,
+				0B2A8095D93FF7D7F4E7995E13299C6E /* Pods-CYDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				879CA02BDA925AD02AFE615312CD7BFC /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				119B31CFF4263A6F404EBA5898FE062A /* Products */,
+				7081EF5B800D35A0765C54EBE20A9EF4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FADCEF0F2CF64689D8AFC6E739FFDB3 /* TRUNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				88F340007EA79E83DDB9140CC3E55434 /* TRUNetworking.h */,
+				B303011E9D805AAE61A77534E27F4F5C /* TRUNetworking.m */,
+				B28E9245F85681A615250E45BCFB4330 /* Pod */,
+				8DDE032E51F1CD4CF2518AB053F8C447 /* Support Files */,
+			);
+			name = TRUNetworking;
+			path = ../Lib/TRUNetworking;
+			sourceTree = "<group>";
+		};
+		879CA02BDA925AD02AFE615312CD7BFC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FADCEF0F2CF64689D8AFC6E739FFDB3 /* TRUNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8DDE032E51F1CD4CF2518AB053F8C447 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80A8C05F4B4AD6EA92A6394AB5F9777 /* TRUNetworking.xcconfig */,
+				99E3DF8662106B4EF9BC83E06937F0E9 /* TRUNetworking-dummy.m */,
+				DC2AA891F88755D631EB45633D94DC07 /* TRUNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/TRUNetworking";
+			sourceTree = "<group>";
+		};
+		B28E9245F85681A615250E45BCFB4330 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F1422EB2B6FE4299FF09B140FAADAF13 /* LICENSE */,
+				A4AB13FE36CC72BF90DE801B8C65E367 /* README.md */,
+				41D60012230029B791D7D88A1F06D3DD /* TRUNetworking.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FEDB9F030E079B656EF19370C8D9BFE3 /* Pods-CYDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				50267FC619D9BDF194899B3DB876C584 /* Pods-CYDemoTests-acknowledgements.markdown */,
+				1FF54BDFAA5520DA0C3C798834E789F7 /* Pods-CYDemoTests-acknowledgements.plist */,
+				8B4D016023E0538BC753BD4DDACF632B /* Pods-CYDemoTests-dummy.m */,
+				56BC2E84F7EDF00757CD6F4C6F49A8F6 /* Pods-CYDemoTests-frameworks.sh */,
+				B9093C8B1D6BBFA32E19102EDFACCDAB /* Pods-CYDemoTests-resources.sh */,
+				C53AFD90F836F83E69B97FDC717D4D2F /* Pods-CYDemoTests.debug.xcconfig */,
+				CA9E50BE0BCD0754AA5C49843E9FFBEF /* Pods-CYDemoTests.release.xcconfig */,
+			);
+			name = "Pods-CYDemoTests";
+			path = "Target Support Files/Pods-CYDemoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C401A8C5A66CD924A49BAE3761A9551 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AEF9886DF781E4AF2397AE3C6E21462 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC59E4E27FB13349FA1BAB6033B3FC1 /* TRUNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8534EFA36EB596030DB1FF8B12F3C3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AC639BAC19AC5391F1F44F6197EFDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		076D507170B23F877A3827E82BDB4F30 /* Pods-CYDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C9D94766F0D6AADCA9E1A74819C4CC /* Build configuration list for PBXNativeTarget "Pods-CYDemo" */;
+			buildPhases = (
+				5C401A8C5A66CD924A49BAE3761A9551 /* Headers */,
+				CBF2896AF89B7C323D8EFE313C41196D /* Sources */,
+				8AD04EA7A09FB51AA28809564E779A5E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DEE81F9BE3816F04D2740BA644C3C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-CYDemo";
+			productName = "Pods-CYDemo";
+			productReference = FE3B166DBAF5DA71E0AB134F07C1CF88 /* libPods-CYDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ACB08FA64BD067BD9B1BB69D48EE62B2 /* Pods-CYDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729B4F89D4C66F24A05B9CE0679DC791 /* Build configuration list for PBXNativeTarget "Pods-CYDemoUITests" */;
+			buildPhases = (
+				B8534EFA36EB596030DB1FF8B12F3C3F /* Headers */,
+				4EC530271486ADB68726B475F5CA7703 /* Sources */,
+				4D743258D14564CDE9543EE2B4DB262F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7915832BB5AAB096A19A5F0E783F101E /* PBXTargetDependency */,
+			);
+			name = "Pods-CYDemoUITests";
+			productName = "Pods-CYDemoUITests";
+			productReference = 40280D9EE53089F6E46AEC9FC9048E07 /* libPods-CYDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D42FCCD5AF443C61BF121378F76C2864 /* TRUNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B7E5A2BCAE4838BA5725512C5C3CA0 /* Build configuration list for PBXNativeTarget "TRUNetworking" */;
+			buildPhases = (
+				7AEF9886DF781E4AF2397AE3C6E21462 /* Headers */,
+				71BC47B56D3B50C61B4C20157C64EA51 /* Sources */,
+				2811341D652DC31C9F130E35EE4A2D96 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRUNetworking;
+			productName = TRUNetworking;
+			productReference = 8E154FA342846921FFFC783F515187D9 /* libTRUNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E3F37A8DA0F8A3434DB7BCD07641AFC3 /* Pods-CYDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBAC5B32A0505D19835DD13BDAB6560 /* Build configuration list for PBXNativeTarget "Pods-CYDemoTests" */;
+			buildPhases = (
+				C3AC639BAC19AC5391F1F44F6197EFDD /* Headers */,
+				0036CB508823F28700944B4CF7A5AB9E /* Sources */,
+				7221FE4559DF3EA2E30F262BE8D64C8E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				357F319E80B5743C8B7F3F8A92158AC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-CYDemoTests";
+			productName = "Pods-CYDemoTests";
+			productReference = 07F68B57CC3B5488B7DDE88D1E60B112 /* libPods-CYDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 119B31CFF4263A6F404EBA5898FE062A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				076D507170B23F877A3827E82BDB4F30 /* Pods-CYDemo */,
+				E3F37A8DA0F8A3434DB7BCD07641AFC3 /* Pods-CYDemoTests */,
+				ACB08FA64BD067BD9B1BB69D48EE62B2 /* Pods-CYDemoUITests */,
+				D42FCCD5AF443C61BF121378F76C2864 /* TRUNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0036CB508823F28700944B4CF7A5AB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129D338E9C5C5E30942C3B4E2081E014 /* Pods-CYDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC530271486ADB68726B475F5CA7703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA46723862CD6465515EE2EE667A494 /* Pods-CYDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BC47B56D3B50C61B4C20157C64EA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E92F718E1C1C33D340A8BA4F89C6048 /* TRUNetworking-dummy.m in Sources */,
+				0953AA504CEC08A99B1204864D472B0D /* TRUNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF2896AF89B7C323D8EFE313C41196D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DEE49A14F894272EF3400BA825570D /* Pods-CYDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		357F319E80B5743C8B7F3F8A92158AC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CYDemo";
+			target = 076D507170B23F877A3827E82BDB4F30 /* Pods-CYDemo */;
+			targetProxy = F18CF19D520D78BF99411165E25265D6 /* PBXContainerItemProxy */;
+		};
+		37DEE81F9BE3816F04D2740BA644C3C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRUNetworking;
+			target = D42FCCD5AF443C61BF121378F76C2864 /* TRUNetworking */;
+			targetProxy = 9071EB33C1D5FC125E50B609CA1E3B39 /* PBXContainerItemProxy */;
+		};
+		7915832BB5AAB096A19A5F0E783F101E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CYDemo";
+			target = 076D507170B23F877A3827E82BDB4F30 /* Pods-CYDemo */;
+			targetProxy = 446A470E0E22375D1CF67B59EF29836A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03C924972FADD9B4FF0ACEC75B8E256E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E18FDAD11E4B1A2D83E83457020095 /* Pods-CYDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		309EC07AA4FBF2C7FED70F411BBE2F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C53AFD90F836F83E69B97FDC717D4D2F /* Pods-CYDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C358F433CC6DC3B7B6268A230DDA039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9E50BE0BCD0754AA5C49843E9FFBEF /* Pods-CYDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		748266642A72CDE457D2D808A7B1321C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80A8C05F4B4AD6EA92A6394AB5F9777 /* TRUNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUNetworking/TRUNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TRUNetworking;
+				PRODUCT_NAME = TRUNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DC861F53B471F106BC8ACC4475EFA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B3A6CE6AE250F51F6C93FA8594352EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80A8C05F4B4AD6EA92A6394AB5F9777 /* TRUNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUNetworking/TRUNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TRUNetworking;
+				PRODUCT_NAME = TRUNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD18170EF089C8B4A9F0878CCCFC3853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489BB1975372446C4E7E51028C8BAA1F /* Pods-CYDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5320615677F79BDC36F36608585C2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76FC26F930334A0A8A687CBD257809B6 /* Pods-CYDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB40D9FE3153C0BF2BD86354F563CB37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371FE7B921E0E6A708060AA4436359AE /* Pods-CYDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16B7E5A2BCAE4838BA5725512C5C3CA0 /* Build configuration list for PBXNativeTarget "TRUNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A6CE6AE250F51F6C93FA8594352EDB /* Debug */,
+				748266642A72CDE457D2D808A7B1321C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C9D94766F0D6AADCA9E1A74819C4CC /* Build configuration list for PBXNativeTarget "Pods-CYDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD18170EF089C8B4A9F0878CCCFC3853 /* Debug */,
+				E5320615677F79BDC36F36608585C2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */,
+				8DC861F53B471F106BC8ACC4475EFA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FBAC5B32A0505D19835DD13BDAB6560 /* Build configuration list for PBXNativeTarget "Pods-CYDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309EC07AA4FBF2C7FED70F411BBE2F1D /* Debug */,
+				3C358F433CC6DC3B7B6268A230DDA039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		729B4F89D4C66F24A05B9CE0679DC791 /* Build configuration list for PBXNativeTarget "Pods-CYDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C924972FADD9B4FF0ACEC75B8E256E /* Debug */,
+				FB40D9FE3153C0BF2BD86354F563CB37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
